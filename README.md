@@ -11,12 +11,14 @@
   >bash
 
   >g++ -o verify_md5 verify_md5.cpp -lssl -lcrypto
+
 This command compiles the program with OpenSSL libraries.
 
    * Run the Program:
   >bash
 
   >./verify_md5 <file_name> <expected_md5_hash>
+
 Replace <file_name> with the name of the file to verify and <expected_md5_hash> with the expected MD5 hash.
 
 # Important Notes
